@@ -1,0 +1,21 @@
+{
+    "liveServer.settings.port": 5501,
+    "intelephense.phpdoc.classTemplate": {
+        "summary": "$1",
+        "tags": [
+            "@package ${1:$SYMBOL_NAMESPACE}"
+        ]
+    },
+    "intelephense.phpdoc.functionTemplate": {
+        "summary": "$1",
+        "tags": [
+            "@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2",
+            "@return ${1:$SYMBOL_TYPE} $2",
+            "@throws ${1:$SYMBOL_TYPE} $2"
+        ]
+    },
+    "php.validate.enable": true,
+    "php.suggest.basic": true,
+    "php.validate.executablePath": "C:\\php\\php.exe",
+    "php.debug.executablePath": "C:\\php\\php.exe"
+}
